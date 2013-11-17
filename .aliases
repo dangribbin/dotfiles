@@ -10,7 +10,6 @@ alias dl="cd ~/Downloads"
 alias s="cd ~/Sites"
 alias g="git"
 alias h="history"
-alias j="jobs"
 alias status="git status"
 
 # Detect which `ls` flavor is in use
