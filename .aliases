@@ -14,8 +14,6 @@ alias h="history"
 alias status="git status"
 alias lgc="git log -n 1 --pretty=format:"%H" | cut -c1-7 | pbcopy"
 alias n="cd ~/Sites/BN/engage/client"
-alias glog=“git log --pretty=format:"%C(yellow)%cn - %ar: %Cred%d%Creset%s" --decorate”
-alias glogme=“git log --author=“Dan” --pretty=format:"%C(yellow)%cn - %ar: %Cred%d%Creset%s" --decorate”
 alias np="cd ~/Sites/BN/new-publish"
 
 # Detect which `ls` flavor is in use
