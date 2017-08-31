@@ -13,10 +13,9 @@ alias g="git"
 alias h="history"
 alias status="git status"
 alias lgc="git log -n 1 --pretty=format:"%H" | cut -c1-7 | pbcopy"
-alias n="cd ~/Sites/BN/engage/client"
-alias np="cd ~/Sites/BN/new-publish"
-alias moderation="cd ~/Sites/BN/moderation"
-alias dotfiles="cd ~/Documents/dotfiles"
+alias dotfiles="cd ~/Sites/Personal/dotfiles"
+alias weather="finger ^rochester@graph.no"
+alias pull="git pull"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
